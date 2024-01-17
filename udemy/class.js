@@ -12,6 +12,7 @@ class Rectangle {
     }
 }
 
+// пример наследования ООП
 class ColoredRectangleWithText extends Rectangle {
     constructor (height, width, text, bgColor){
         super(height, width); //всегда на первом месте и передает от главного класса все свойства
@@ -29,12 +30,18 @@ div.showMyProps();
 console.log(div.calcArea());
 
 
-const square = new Rectangle(10, 10);
-const long = new Rectangle(20, 100);
+// const square = new Rectangle(10, 10);
+// const long = new Rectangle(20, 100);
 
-console.log(square.calcArea());
-console.log(long.calcArea());
+// console.log(square.calcArea());
+// console.log(long.calcArea());
 
+/*
+    1 абстракиця - отделяем экземпляр от концепции (например от созданного нами класса(концепции))
+    отделяем посредством создания нового экземпляра от концепции
+    2 наследование - способность нашего класса/объекта базироваться на основе другого объекта/класса
+    3
+*/
 
 
 
